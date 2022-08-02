@@ -115,7 +115,7 @@ try:
     while True:
         print(INSTRUCTIONS)
         data = raw_input('>> ')
-        if data == "q" or data == "quit":
+        if data in ["q", "quit"]:
             exit(0)
         pieces = data.split(" ")
 
